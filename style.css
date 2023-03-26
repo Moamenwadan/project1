@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+p{
+    font-size:.9rem ;
+}
+.main{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,.7)),url(Images/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+.main-content{
+    font-size: 14px;
+    /* border: 2px solid red; */
+    padding-top: 20px;
+    width: 1140px;
+    margin: 0 auto;
+}
+.main-content ul{
+    float: right;
+}
+.main-content ul li{
+    display: inline-block;
+    margin-right: 30px;
+    list-style: none;
+}
+.main-content ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.main-para{
+    /* border:2px solid blue; */
+    clear: both;
+    width: 1140px;
+    margin: 0 auto;
+    padding: 35px 0px;
+}
+
+.messi{
+    /* border: 2px solid red; */
+    float: left;
+    height: 100px;
+    width: 60%;
+    height: auto;
+    padding-top: 170px;
+}
+
+.messi h1{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 20px;
+    
+}
+.messi p{
+    color: white;
+    margin-bottom: 10px;
+}
+.messi .r{
+    color: white;
+    margin-bottom: 25px;
+    
+}
+.messi .b{
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: .8rem;
+   
+}
+.messi button{
+ background-color: #F9B700;
+ padding: 7px 25px;
+ border: none;
+ color: white;
+ font-size: 1rem;
+}
+.ronaldo{
+    background-color:rgb(12, 19, 29,.6) ;
+    border: 2px solid #1E2638;
+    float: right;
+    height: auto;
+    width: 37%;
+    text-align: center;
+    padding: 40px 0px;    
+}
+input{
+    outline: none;
+}
+.ronaldo h3{
+    color: white;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 50px;
+}
+.ronaldo .name{
+    width: 75%;
+    padding: 8px 9px;
+    margin: 15px 0px;
+    outline: none;
+}
+.ronaldo .email{
+    width: 35%;
+    padding: 8px;
+    margin-bottom: 15px; 
+}
+.ronaldo .birth{
+    width: 35%;
+    padding: 8px;
+    margin-bottom: 15px;
+   
+}
+.ronaldo .real{
+    width: 75%;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+.ronaldo button{
+    background-color: #F9B700;
+    border: none;
+    width: 78%;
+    padding: 10px;
+    margin-bottom: 15px;
+    color: white;
+}
+.clear{
+    clear: both;
+}
+
+section{
+padding-bottom: 70px;
+width: 1140px;
+margin: 20px auto;
+/* border: 2px solid blue; */
+}
+#Gakpo{
+    text-align: center;
+    padding-top: 20px;
+}
+.head1{
+    margin-bottom: 10px;
+}
+.big1{
+    padding-bottom: 20px;
+}
+.p{
+    margin-bottom: 40px;
+    color:#A09E95;
+}
+.article1{
+    /* border: 2px solid red; */
+    width: 300px;
+    
+    background-color: #EDEDF7;
+    padding: 35px 20px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 30px;
+}
+.article1 h4{
+    margin-bottom: 15px;
+    text-align: left;
+}
+.article1 p{
+   text-align: left;
+   margin-left: 20px;
+   color:#A09E95;
+}
+.article1 h4 img{
+    /* border: 2px solid pink; */
+    position: relative;
+    top: 5px;
+    right: 2px;
+}
+.clear{
+    clear: both;
+}
+
+#Depay{
+
+    /* border: 2px solid #F9B700; */
+
+}
+
+.alert1{
+    /* border: 2px solid brown; */
+    float: left;
+    width: 50%;  
+    /* من حجم width: 1440px; */
+}
+.alert1 img{
+    width: 100%;
+    /* من حجم alert1 */
+}
+
+.alert2{
+    /* border: 2px solid #1E2638; */
+    float: right;
+    width: 45%;
+}
+.alert2 h1{
+    padding-top: 100px;
+    margin-bottom: 15px;
+    width: 45%;
+}
+.alert2 h5{
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.alert2 p{
+    margin-bottom: 20px;
+    color:  #A09E95;
+}
+.alert2 button{
+background-color: #F9B700;
+ padding: 10px 25px;
+ border: none;
+ color: white;
+ font-size: 1rem;
+}
+
+#van{
+    /* border: 2px solid #F9B700; */
+}
+.ht{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.pt{
+    text-align: center;
+    padding-bottom: 75px;
+}
+
+.traffic1{
+    /* border: 2px solid brown; */
+    float: right;
+    width: 50%;  
+    /* من حجم width: 1440px; */
+}
+.traffic1 img{
+    width: 100%;
+    /* من حجم alert1 */
+}
+
+.traffic2{
+    /* border: 2px solid #1E2638; */
+    float: left;
+    width: 45%;
+}
+.traffic2 h1{
+    padding-top: 30px;
+    margin-bottom: 15px;
+    width: 45%;
+}
+.traffic2 h5{
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.traffic2 p{
+    margin-bottom: 10px;
+    color:  #A09E95;
+    text-align: justify;
+}
+.traffic2 button{
+margin-top: 10px;
+background-color: #222222;
+ padding: 10px 25px;
+ border: none;
+ color: white;
+ font-size: 1rem;
+}
+.dot{
+    text-align: center;
+    font-size: 5rem;
+    color: #F9B700;
+}
+#balde{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,.7)),url(Images/callaction-bg.jpg);
+   
+    background-position: center;
+    background-size: cover;
+}
+.roberto{
+    padding: 130px 0px;
+    text-align: center;
+}
+.roberto h1{
+   color: white;
+}
+.roberto p{
+    width: 75%;
+    margin: 20px auto;
+   color: whitesmoke;
+
+}
+.roberto button {
+    background-color: transparent;
+    border: 2px solid #F9B700;
+    padding: 8px 15px;
+    color:#F9B700 ;
+}
+
+#liver{
+  
+}
+.mo-salah{
+    float: left;
+    width: 263px;
+    margin-right: 20px;
+}
+.mo-salah img{
+    margin-bottom: 20px;
+}
+.mo-salah button{
+   background-color: black;
+   color: white;
+   padding: 7px 10px;
+   margin-bottom: 10px;
+   border: none;
+}
+.mo-salah h3{
+margin-bottom: 10px;
+}
+.mo-salah p{
+ font-size: .8rem;
+ color: #A09E95;
+}
+.l{
+    margin-bottom: 30px;
+}
+.love{
+    margin-left: 5px;
+}
+.love{
+    float: right;
+}
+.image1{
+    float:left;
+}
+footer{
+    padding-top: 30px;
+    background-color: #04091D;
+   
+}
+.big-div{
+    width: 1140px;
+    margin: 0 auto;
+}
+.list1{
+    width: 170px;
+    float: left;
+    margin-right: 30px;
+}
+.list1 h2{
+    margin-bottom: 15px;
+    color: white;
+}
+.list1 ul li{
+    list-style: none;
+    margin-bottom: 10px;
+    color: #A09E95;
+}
+
+.list1 ul li input{
+   padding: 8px 50px;
+}
+.finish{
+    text-align: center;
+    color: white;
+    padding:50px 0px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
