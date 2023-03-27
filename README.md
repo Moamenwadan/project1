@@ -1,1 +1,1 @@
-![the project](/media/main.png)
+![the project](/media/main.jpg)
